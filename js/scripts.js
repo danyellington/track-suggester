@@ -4,23 +4,23 @@ $(document).ready(function() {
 
     $("#questions").fadeOut();
 
-    var Q1 = $("input:radio[name=Q1]:checked").val();
-    var japan = $("input:radio[name=japan]:checked").val();
-    var hairy = $("input:radio[name=hairy]:checked").val();
-    var weather = $("input:radio[name=weather]:checked").val();
-    var breath = $("input:radio[name=breath]:checked").val();
+    var question1 = $("input:radio[name=question1]:checked").val();
+    var question2 = $("input:radio[name=question2]:checked").val();
+    var question3 = $("input:radio[name=question3]:checked").val();
+    var question4 = $("input:radio[name=question4]:checked").val();
+    var question5 = $("input:radio[name=question5]:checked").val();
 
-    if (Q1 === "no") {
+    if (question1 === "no") {
       $(".barney").fadeIn();
-    } else if (Q1 === "yes" && japan === "no" && hairy === "no") {
+    } else if (question1 === "yes" && question2 === "no" && question3 === "no") {
       $(".nessie").fadeIn();
-    } else if (Q1 === "yes" && japan === "no" && hairy === "yes" && weather === "no") {
+    } else if (question1 === "yes" && question2 === "no" && question3 === "yes" && question4 === "no") {
       $(".sasquatch").fadeIn();
-    } else if (Q1 === "yes" && japan === "no" && hairy === "yes" && weather === "yes") {
+    } else if (question1 === "yes" && question2 === "no" && question3 === "yes" && question4 === "yes") {
       $(".yeti").fadeIn();
-    } else if (Q1 === "yes" && japan === "yes" && breath === "yes") {
+    } else if (question1 === "yes" && question2 === "yes" && question5 === "yes") {
       $(".godzilla").fadeIn();
-    } else if (Q1 === "yes" && japan === "yes" && breath === "no") {
+    } else if (question1 === "yes" && question2 === "yes" && question5 === "no") {
       $(".mothra").fadeIn();
     }
   });
