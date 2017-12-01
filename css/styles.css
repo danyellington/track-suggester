@@ -100,3 +100,7 @@ ul  {
 ol {
   text-align: left;
 }
+
+.panel-default {
+  margin: 15px;
+}
