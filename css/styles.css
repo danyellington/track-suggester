@@ -39,7 +39,7 @@ p {
 }
 
 #rubylogo {
-  margin-left: 40%;
+  margin-left: 17%;
 }
 
 #phplogo {
@@ -51,10 +51,6 @@ p {
   margin-left: 30%;
 }
 
-.ruby {
-  background-color: red;
-}
-
 .jumbotron {
     margin-bottom: 0px;
     background-image: url("../img/broken.jpg");
@@ -63,4 +59,10 @@ p {
     background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.sorry p {
+  font-size: 55px;
+  text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #a82e28;
 }
