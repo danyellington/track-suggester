@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("../img/kiss.jpg");
+
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #e0e1e2;
@@ -18,12 +18,12 @@ button {
 }
 
 .answer p {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
 }
 
 .answer img {
-  margin-left: 30%;
+  margin-left: 40%;
 }
 
 h1 {
@@ -36,4 +36,17 @@ object {
 
 p {
   text-align: center;
+}
+
+#rubylogo {
+  margin-left: 40%;
+}
+
+#phplogo {
+  margin-left: 20%;
+  width: auto;
+}
+
+#javalogo {
+  margin-left: 30%;
 }
