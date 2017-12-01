@@ -11,17 +11,15 @@ $(document).ready(function() {
     var question5 = $("input:radio[name=question5]:checked").val();
 
     if (question1 === "no") {
-      $(".barney").fadeIn();
+      $(".sorry").fadeIn();
     } else if (question1 === "yes" && question2 === "no" && question3 === "no") {
-      $(".nessie").fadeIn();
+      $(".php").fadeIn();
     } else if (question1 === "yes" && question2 === "no" && question3 === "yes" && question4 === "no") {
-      $(".sasquatch").fadeIn();
+      $(".ruby").fadeIn();
     } else if (question1 === "yes" && question2 === "no" && question3 === "yes" && question4 === "yes") {
-      $(".yeti").fadeIn();
+      $(".java").fadeIn();
     } else if (question1 === "yes" && question2 === "yes" && question5 === "yes") {
-      $(".godzilla").fadeIn();
-    } else if (question1 === "yes" && question2 === "yes" && question5 === "no") {
-      $(".mothra").fadeIn();
+      $(".csharp").fadeIn();
     }
   });
 });

@@ -1,4 +1,4 @@
-.monster {
+.answer {
   display: none;
 }
 
@@ -17,12 +17,12 @@ button {
   color: white !important;
 }
 
-.monster p {
+.answer p {
   font-size: 30px;
   text-align: center;
 }
 
-.monster img {
+.answer img {
   margin-left: 30%;
 }
 
