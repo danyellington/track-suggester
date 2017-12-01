@@ -9,6 +9,7 @@ body {
   background-color: #e0e1e2;
   color: #5008a3;
   text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 25px;
 
 }
 
@@ -28,6 +29,8 @@ button {
 
 h1 {
   text-align: center;
+  border: dotted;
+  font-size: 65px;
 }
 
 object {
@@ -76,4 +79,11 @@ p {
 
 h4 {
   text-align: center;
+}
+
+#intro {
+  font-size: 15px;
+  color: white;
+  text-shadow: none !important;
+  text-decoration: underline;
 }
