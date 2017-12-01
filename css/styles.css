@@ -3,7 +3,7 @@
 }
 
 body {
-
+  background-image: url("../img/comp.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #e0e1e2;
@@ -49,4 +49,8 @@ p {
 
 #javalogo {
   margin-left: 30%;
+}
+
+.ruby {
+  background-color: red;
 }
