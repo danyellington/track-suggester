@@ -70,3 +70,7 @@ p {
 .questionable {
   text-decoration: underline;
 }
+
+h4 {
+  text-align: center;
+}
