@@ -87,3 +87,7 @@ h4 {
   text-shadow: none !important;
   text-decoration: underline;
 }
+
+ul {
+  text-align: center;
+}
