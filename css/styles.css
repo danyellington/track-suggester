@@ -39,7 +39,8 @@ p {
 }
 
 #rubylogo {
-  margin-left: 17%;
+  margin-left: 33%;
+  height: 375px;
 }
 
 #phplogo {
@@ -69,6 +70,8 @@ p {
 
 .questionable {
   text-decoration: underline;
+  color: darkred;
+  text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 h4 {
